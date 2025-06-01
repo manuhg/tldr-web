@@ -20,7 +20,7 @@ const App = () => {
       <section className="hero">
         <div className="hero-content">
           <h1>Supercharge Your AI Interactions</h1>
-          <p className="hero-subtitle">tldr enhances AI responses with context from your documents</p>
+          <p className="hero-subtitle">tldr enhances AI responses with context from your documents, complete with page references and clickable links</p>
           <a href="https://mega.nz/file/SYskDZ7C#W7oEsLY6_Vmj8iohKHFowFOJPI3Yl7blrpaarBU0mYc" className="cta-button">
             Download for macOS
             <span className="button-icon">↓</span>
@@ -37,7 +37,7 @@ const App = () => {
           <div className="feature-card">
             <div className="feature-icon">📚</div>
             <h3>Document Retrieval</h3>
-            <p>Seamlessly retrieves relevant information from your documents to enhance AI responses.</p>
+            <p>Seamlessly retrieves relevant information from your documents to enhance AI responses with precise citations.</p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">🧠</div>
@@ -54,6 +54,11 @@ const App = () => {
             <h3>Native Performance</h3>
             <p>Built specifically for macOS to provide a smooth, responsive experience.</p>
           </div>
+          <div className="feature-card">
+            <div className="feature-icon">🔗</div>
+            <h3>Page References</h3>
+            <p>Provides exact page number references with clickable links to the original document pages.</p>
+          </div>
         </div>
       </section>
 
@@ -69,6 +74,11 @@ const App = () => {
           <p>
             Whether you're researching, writing, or just looking for better answers, 
             tldr helps you get more value from AI by grounding it in your own content.
+          </p>
+          <p>
+            Every AI response includes precise page number references and clickable links 
+            to the original document pages, making it easy to verify information and explore 
+            source material in depth.
           </p>
         </div>
       </section>
